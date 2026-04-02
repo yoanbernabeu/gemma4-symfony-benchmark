@@ -57,7 +57,9 @@ Each run is validated by:
 
 ## Results
 
-Results are saved in `/tmp/gemma4-benchmark-results/<timestamp>/`:
+Raw results from our benchmark run are available in the [`results/`](./results) directory.
+
+When you run the benchmark yourself, results are saved in `/tmp/gemma4-benchmark-results/<timestamp>/`:
 
 ```
 summary.json             # Per-scenario aggregation
