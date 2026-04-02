@@ -1,0 +1,13 @@
+{
+    "files": {"src/Service/SlugGenerator.php":{"exists":false,"syntax_valid":false},"tests/Service/SlugGeneratorTest.php":{"exists":false,"syntax_valid":false}},
+    "all_files_exist": false,
+    "all_syntax_valid": false,
+    "lint_container": true,
+    "lint_yaml": true,
+    "lint_twig": true,
+    "doctrine_mapping_valid": null,
+    "routes": [],
+    "phpunit": null,
+    "php8_attributes": {},
+    "files_created": []
+}

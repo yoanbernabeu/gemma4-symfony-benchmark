@@ -1,0 +1,23 @@
+{
+    "scenario": "S5",
+    "run": 1,
+    "timestamp": "2026-04-02T21:02:44Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {"wall_time_seconds": 63.2, "peak_memory_bytes": 468140032},
+    "tokens": {"input": 42086, "output": 864, "total": 42950, "reasoning": 0, "steps": 2, "tool_calls": 0},
+    "validation": {
+    "files": {"src/Entity/Product.php":{"exists":false,"syntax_valid":false},"src/Repository/ProductRepository.php":{"exists":false,"syntax_valid":false},"src/Form/ProductType.php":{"exists":false,"syntax_valid":false},"src/Controller/ProductController.php":{"exists":false,"syntax_valid":false},"templates/product/index.html.twig":{"exists":false,"syntax_valid":false},"templates/product/new.html.twig":{"exists":false,"syntax_valid":false},"templates/product/show.html.twig":{"exists":false,"syntax_valid":false},"templates/product/edit.html.twig":{"exists":false,"syntax_valid":false},"tests/Controller/ProductControllerTest.php":{"exists":false,"syntax_valid":false}},
+    "all_files_exist": false,
+    "all_syntax_valid": false,
+    "lint_container": true,
+    "lint_yaml": true,
+    "lint_twig": true,
+    "doctrine_mapping_valid": false,
+    "routes": [{"path":"/products","registered":false},{"path":"/products/new","registered":false},{"path":"/products/{id}","registered":false},{"path":"/products/{id}/edit","registered":false},{"path":"/products/{id}/delete","registered":false}],
+    "phpunit": null,
+    "php8_attributes": {},
+    "files_created": []
+},
+    "score": 40.0
+}

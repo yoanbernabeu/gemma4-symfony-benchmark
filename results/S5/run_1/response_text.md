@@ -1,0 +1,2 @@
+I'll help implement this complete CRUD functionality. It requires creating an entity, repository, form, controller, templates, and a test file. Let me create a todo list to track this implementation.
+I'll start by creating the `Product` entity at `App\Entity\Product`.

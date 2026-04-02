@@ -1,0 +1,13 @@
+{
+    "files": {"src/Controller/ArticleController.php":{"exists":true,"syntax_valid":true},"templates/article/index.html.twig":{"exists":false,"syntax_valid":false},"templates/article/show.html.twig":{"exists":false,"syntax_valid":false}},
+    "all_files_exist": false,
+    "all_syntax_valid": false,
+    "lint_container": true,
+    "lint_yaml": true,
+    "lint_twig": true,
+    "doctrine_mapping_valid": null,
+    "routes": [{"path":"/articles","registered":true},{"path":"/articles/{id}","registered":true}],
+    "phpunit": null,
+    "php8_attributes": {"src/Controller/ArticleController.php":2},
+    "files_created": ["src/Controller/ArticleController.php"]
+}

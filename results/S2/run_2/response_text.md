@@ -1,0 +1,2 @@
+I will create the controller and the two required Twig templates for you.
+I have created `src/Controller/ArticleController.php`, `templates/article/index.html.twig`, and `templates/article/show.html.twig` as requested.

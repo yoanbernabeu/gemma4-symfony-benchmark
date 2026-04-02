@@ -1,0 +1,23 @@
+{
+    "scenario": "S3",
+    "run": 2,
+    "timestamp": "2026-04-02T20:54:23Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {"wall_time_seconds": 49.87, "peak_memory_bytes": 468647936},
+    "tokens": {"input": 20646, "output": 488, "total": 21134, "reasoning": 0, "steps": 1, "tool_calls": 0},
+    "validation": {
+    "files": {"src/Service/SlugGenerator.php":{"exists":false,"syntax_valid":false},"tests/Service/SlugGeneratorTest.php":{"exists":false,"syntax_valid":false}},
+    "all_files_exist": false,
+    "all_syntax_valid": false,
+    "lint_container": true,
+    "lint_yaml": true,
+    "lint_twig": true,
+    "doctrine_mapping_valid": null,
+    "routes": [],
+    "phpunit": null,
+    "php8_attributes": {},
+    "files_created": []
+},
+    "score": 60.0
+}

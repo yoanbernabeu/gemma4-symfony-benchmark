@@ -1,0 +1,13 @@
+{
+    "files": {"src/Entity/Product.php":{"exists":true,"syntax_valid":true},"src/Repository/ProductRepository.php":{"exists":true,"syntax_valid":true},"src/Form/ProductType.php":{"exists":true,"syntax_valid":true},"src/Controller/ProductController.php":{"exists":false,"syntax_valid":false},"templates/product/index.html.twig":{"exists":false,"syntax_valid":false},"templates/product/new.html.twig":{"exists":false,"syntax_valid":false},"templates/product/show.html.twig":{"exists":false,"syntax_valid":false},"templates/product/edit.html.twig":{"exists":false,"syntax_valid":false},"tests/Controller/ProductControllerTest.php":{"exists":false,"syntax_valid":false}},
+    "all_files_exist": false,
+    "all_syntax_valid": false,
+    "lint_container": false,
+    "lint_yaml": false,
+    "lint_twig": false,
+    "doctrine_mapping_valid": false,
+    "routes": [{"path":"/products","registered":false},{"path":"/products/new","registered":false},{"path":"/products/{id}","registered":false},{"path":"/products/{id}/edit","registered":false},{"path":"/products/{id}/delete","registered":false}],
+    "phpunit": null,
+    "php8_attributes": {"src/Entity/Product.php":10,"src/Repository/ProductRepository.php":0,"src/Form/ProductType.php":0},
+    "files_created": ["src/Entity/Product.php", "src/Form/ProductType.php", "src/Repository/ProductRepository.php"]
+}

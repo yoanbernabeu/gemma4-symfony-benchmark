@@ -1,0 +1,23 @@
+{
+    "scenario": "S4",
+    "run": 1,
+    "timestamp": "2026-04-02T20:56:35Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {"wall_time_seconds": 76.05, "peak_memory_bytes": 464781312},
+    "tokens": {"input": 83029, "output": 1403, "total": 84432, "reasoning": 0, "steps": 4, "tool_calls": 0},
+    "validation": {
+    "files": {"src/DTO/ContactDTO.php":{"exists":false,"syntax_valid":false},"src/Form/ContactType.php":{"exists":false,"syntax_valid":false},"src/Controller/ContactController.php":{"exists":false,"syntax_valid":false},"templates/contact/index.html.twig":{"exists":false,"syntax_valid":false}},
+    "all_files_exist": false,
+    "all_syntax_valid": false,
+    "lint_container": true,
+    "lint_yaml": true,
+    "lint_twig": true,
+    "doctrine_mapping_valid": null,
+    "routes": [{"path":"/contact","registered":false}],
+    "phpunit": null,
+    "php8_attributes": {},
+    "files_created": []
+},
+    "score": 50.0
+}

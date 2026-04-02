@@ -1,0 +1,92 @@
+[
+  {
+    "scenario": "S1",
+    "runs": 3,
+    "success_rate": 66.7,
+    "mean_score": 86.7,
+    "stddev_score": 18.9,
+    "scores": [
+      60.0,
+      100.0,
+      100.0
+    ],
+    "mean_wall_time": 119.2,
+    "mean_tokens_total": 57257,
+    "mean_tokens_output": 1257,
+    "mean_steps": 2.7,
+    "mean_tool_calls": 0.0,
+    "timed_out_count": 0
+  },
+  {
+    "scenario": "S2",
+    "runs": 3,
+    "success_rate": 0.0,
+    "mean_score": 53.3,
+    "stddev_score": 4.7,
+    "scores": [
+      50.0,
+      50.0,
+      60.0
+    ],
+    "mean_wall_time": 102.4,
+    "mean_tokens_total": 42999,
+    "mean_tokens_output": 1401,
+    "mean_steps": 2.0,
+    "mean_tool_calls": 0.0,
+    "timed_out_count": 0
+  },
+  {
+    "scenario": "S3",
+    "runs": 3,
+    "success_rate": 0.0,
+    "mean_score": 63.3,
+    "stddev_score": 4.7,
+    "scores": [
+      70.0,
+      60.0,
+      60.0
+    ],
+    "mean_wall_time": 130.2,
+    "mean_tokens_total": 108474,
+    "mean_tokens_output": 2745,
+    "mean_steps": 4.7,
+    "mean_tool_calls": 0.0,
+    "timed_out_count": 0
+  },
+  {
+    "scenario": "S4",
+    "runs": 3,
+    "success_rate": 0.0,
+    "mean_score": 50.0,
+    "stddev_score": 0.0,
+    "scores": [
+      50.0,
+      50.0,
+      50.0
+    ],
+    "mean_wall_time": 123.6,
+    "mean_tokens_total": 56850,
+    "mean_tokens_output": 1206,
+    "mean_steps": 2.7,
+    "mean_tool_calls": 0.0,
+    "timed_out_count": 0
+  },
+  {
+    "scenario": "S5",
+    "runs": 3,
+    "success_rate": 0.0,
+    "mean_score": 30.0,
+    "stddev_score": 14.1,
+    "scores": [
+      40.0,
+      40.0,
+      10.0
+    ],
+    "mean_wall_time": 121.0,
+    "mean_tokens_total": 109008,
+    "mean_tokens_output": 2307,
+    "mean_steps": 4.7,
+    "mean_tool_calls": 0.0,
+    "timed_out_count": 0
+  }
+]

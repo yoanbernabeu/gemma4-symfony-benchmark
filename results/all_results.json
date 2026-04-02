@@ -1,0 +1,908 @@
+[
+  {
+    "scenario": "S1",
+    "run": 1,
+    "timestamp": "2026-04-02T20:39:09Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 118.94,
+      "peak_memory_bytes": 467714048
+    },
+    "tokens": {
+      "input": 41749,
+      "output": 1209,
+      "total": 42958,
+      "reasoning": 0,
+      "steps": 2,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Entity/Article.php": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "src/Repository/ArticleRepository.php": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": true,
+      "routes": [],
+      "phpunit": null,
+      "php8_attributes": {
+        "src/Entity/Article.php": 9
+      },
+      "files_created": [
+        "src/Entity/Article.php"
+      ]
+    },
+    "score": 60.0
+  },
+  {
+    "scenario": "S1",
+    "run": 2,
+    "timestamp": "2026-04-02T20:41:16Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 119.31,
+      "peak_memory_bytes": 467501056
+    },
+    "tokens": {
+      "input": 63038,
+      "output": 1353,
+      "total": 64391,
+      "reasoning": 0,
+      "steps": 3,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Entity/Article.php": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "src/Repository/ArticleRepository.php": {
+          "exists": true,
+          "syntax_valid": true
+        }
+      },
+      "all_files_exist": true,
+      "all_syntax_valid": true,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": true,
+      "routes": [],
+      "phpunit": null,
+      "php8_attributes": {
+        "src/Entity/Article.php": 9,
+        "src/Repository/ArticleRepository.php": 0
+      },
+      "files_created": [
+        "src/Entity/Article.php",
+        "src/Repository/ArticleRepository.php"
+      ]
+    },
+    "score": 100.0
+  },
+  {
+    "scenario": "S1",
+    "run": 3,
+    "timestamp": "2026-04-02T20:43:18Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 119.38,
+      "peak_memory_bytes": 473989120
+    },
+    "tokens": {
+      "input": 63212,
+      "output": 1209,
+      "total": 64421,
+      "reasoning": 0,
+      "steps": 3,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Entity/Article.php": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "src/Repository/ArticleRepository.php": {
+          "exists": true,
+          "syntax_valid": true
+        }
+      },
+      "all_files_exist": true,
+      "all_syntax_valid": true,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": true,
+      "routes": [],
+      "phpunit": null,
+      "php8_attributes": {
+        "src/Entity/Article.php": 9,
+        "src/Repository/ArticleRepository.php": 0
+      },
+      "files_created": [
+        "src/Entity/Article.php",
+        "src/Repository/ArticleRepository.php"
+      ]
+    },
+    "score": 100.0
+  },
+  {
+    "scenario": "S2",
+    "run": 1,
+    "timestamp": "2026-04-02T20:44:27Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 67.55,
+      "peak_memory_bytes": 468664320
+    },
+    "tokens": {
+      "input": 41402,
+      "output": 1094,
+      "total": 42496,
+      "reasoning": 0,
+      "steps": 2,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Controller/ArticleController.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/article/index.html.twig": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "templates/article/show.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": null,
+      "routes": [
+        {
+          "path": "/articles",
+          "registered": false
+        },
+        {
+          "path": "/articles/{id}",
+          "registered": false
+        }
+      ],
+      "phpunit": null,
+      "php8_attributes": {},
+      "files_created": [
+        "templates/article/index.html.twig"
+      ]
+    },
+    "score": 50.0
+  },
+  {
+    "scenario": "S2",
+    "run": 2,
+    "timestamp": "2026-04-02T20:46:28Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 118.56,
+      "peak_memory_bytes": 462585856
+    },
+    "tokens": {
+      "input": 41723,
+      "output": 1460,
+      "total": 43183,
+      "reasoning": 0,
+      "steps": 2,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Controller/ArticleController.php": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "templates/article/index.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/article/show.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": null,
+      "routes": [
+        {
+          "path": "/articles",
+          "registered": false
+        },
+        {
+          "path": "/articles/{id}",
+          "registered": false
+        }
+      ],
+      "phpunit": null,
+      "php8_attributes": {
+        "src/Controller/ArticleController.php": 2
+      },
+      "files_created": [
+        "src/Controller/ArticleController.php"
+      ]
+    },
+    "score": 50.0
+  },
+  {
+    "scenario": "S2",
+    "run": 3,
+    "timestamp": "2026-04-02T20:48:34Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 121.15,
+      "peak_memory_bytes": 469450752
+    },
+    "tokens": {
+      "input": 41671,
+      "output": 1648,
+      "total": 43319,
+      "reasoning": 0,
+      "steps": 2,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Controller/ArticleController.php": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "templates/article/index.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/article/show.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": null,
+      "routes": [
+        {
+          "path": "/articles",
+          "registered": true
+        },
+        {
+          "path": "/articles/{id}",
+          "registered": true
+        }
+      ],
+      "phpunit": null,
+      "php8_attributes": {
+        "src/Controller/ArticleController.php": 2
+      },
+      "files_created": [
+        "src/Controller/ArticleController.php"
+      ]
+    },
+    "score": 60.0
+  },
+  {
+    "scenario": "S3",
+    "run": 1,
+    "timestamp": "2026-04-02T20:53:29Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 291.63,
+      "peak_memory_bytes": 460587008
+    },
+    "tokens": {
+      "input": 275895,
+      "output": 7282,
+      "total": 283177,
+      "reasoning": 0,
+      "steps": 12,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Service/SlugGenerator.php": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "tests/Service/SlugGeneratorTest.php": {
+          "exists": true,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": true,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": null,
+      "routes": [],
+      "phpunit": {
+        "pass": false,
+        "tests": 0,
+        "assertions": 0,
+        "exit_code": 255
+      },
+      "php8_attributes": {
+        "src/Service/SlugGenerator.php": 0,
+        "tests/Service/SlugGeneratorTest.php": 0
+      },
+      "files_created": [
+        "src/Service/SlugGenerator.php",
+        "tests/Service/SlugGeneratorTest.php"
+      ]
+    },
+    "score": 70.0
+  },
+  {
+    "scenario": "S3",
+    "run": 2,
+    "timestamp": "2026-04-02T20:54:23Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 49.87,
+      "peak_memory_bytes": 468647936
+    },
+    "tokens": {
+      "input": 20646,
+      "output": 488,
+      "total": 21134,
+      "reasoning": 0,
+      "steps": 1,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Service/SlugGenerator.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "tests/Service/SlugGeneratorTest.php": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": null,
+      "routes": [],
+      "phpunit": null,
+      "php8_attributes": {},
+      "files_created": []
+    },
+    "score": 60.0
+  },
+  {
+    "scenario": "S3",
+    "run": 3,
+    "timestamp": "2026-04-02T20:55:15Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 49.03,
+      "peak_memory_bytes": 466059264
+    },
+    "tokens": {
+      "input": 20646,
+      "output": 466,
+      "total": 21112,
+      "reasoning": 0,
+      "steps": 1,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Service/SlugGenerator.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "tests/Service/SlugGeneratorTest.php": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": null,
+      "routes": [],
+      "phpunit": null,
+      "php8_attributes": {},
+      "files_created": []
+    },
+    "score": 60.0
+  },
+  {
+    "scenario": "S4",
+    "run": 1,
+    "timestamp": "2026-04-02T20:56:35Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 76.05,
+      "peak_memory_bytes": 464781312
+    },
+    "tokens": {
+      "input": 83029,
+      "output": 1403,
+      "total": 84432,
+      "reasoning": 0,
+      "steps": 4,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/DTO/ContactDTO.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "src/Form/ContactType.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "src/Controller/ContactController.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/contact/index.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": null,
+      "routes": [
+        {
+          "path": "/contact",
+          "registered": false
+        }
+      ],
+      "phpunit": null,
+      "php8_attributes": {},
+      "files_created": []
+    },
+    "score": 50.0
+  },
+  {
+    "scenario": "S4",
+    "run": 2,
+    "timestamp": "2026-04-02T21:00:30Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 231.19,
+      "peak_memory_bytes": 463536128
+    },
+    "tokens": {
+      "input": 63221,
+      "output": 1201,
+      "total": 64422,
+      "reasoning": 0,
+      "steps": 3,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/DTO/ContactDTO.php": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "src/Form/ContactType.php": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "src/Controller/ContactController.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/contact/index.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": null,
+      "routes": [
+        {
+          "path": "/contact",
+          "registered": false
+        }
+      ],
+      "phpunit": null,
+      "php8_attributes": {
+        "src/DTO/ContactDTO.php": 7,
+        "src/Form/ContactType.php": 0
+      },
+      "files_created": [
+        "src/DTO/ContactDTO.php",
+        "src/Form/ContactType.php"
+      ]
+    },
+    "score": 50.0
+  },
+  {
+    "scenario": "S4",
+    "run": 3,
+    "timestamp": "2026-04-02T21:01:37Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 63.42,
+      "peak_memory_bytes": 470777856
+    },
+    "tokens": {
+      "input": 20682,
+      "output": 1014,
+      "total": 21696,
+      "reasoning": 0,
+      "steps": 1,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/DTO/ContactDTO.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "src/Form/ContactType.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "src/Controller/ContactController.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/contact/index.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": null,
+      "routes": [
+        {
+          "path": "/contact",
+          "registered": false
+        }
+      ],
+      "phpunit": null,
+      "php8_attributes": {},
+      "files_created": []
+    },
+    "score": 50.0
+  },
+  {
+    "scenario": "S5",
+    "run": 1,
+    "timestamp": "2026-04-02T21:02:44Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 63.2,
+      "peak_memory_bytes": 468140032
+    },
+    "tokens": {
+      "input": 42086,
+      "output": 864,
+      "total": 42950,
+      "reasoning": 0,
+      "steps": 2,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Entity/Product.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "src/Repository/ProductRepository.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "src/Form/ProductType.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "src/Controller/ProductController.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/index.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/new.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/show.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/edit.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "tests/Controller/ProductControllerTest.php": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": false,
+      "routes": [
+        {
+          "path": "/products",
+          "registered": false
+        },
+        {
+          "path": "/products/new",
+          "registered": false
+        },
+        {
+          "path": "/products/{id}",
+          "registered": false
+        },
+        {
+          "path": "/products/{id}/edit",
+          "registered": false
+        },
+        {
+          "path": "/products/{id}/delete",
+          "registered": false
+        }
+      ],
+      "phpunit": null,
+      "php8_attributes": {},
+      "files_created": []
+    },
+    "score": 40.0
+  },
+  {
+    "scenario": "S5",
+    "run": 2,
+    "timestamp": "2026-04-02T21:03:46Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 58.55,
+      "peak_memory_bytes": 468303872
+    },
+    "tokens": {
+      "input": 20740,
+      "output": 818,
+      "total": 21558,
+      "reasoning": 0,
+      "steps": 1,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Entity/Product.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "src/Repository/ProductRepository.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "src/Form/ProductType.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "src/Controller/ProductController.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/index.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/new.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/show.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/edit.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "tests/Controller/ProductControllerTest.php": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": true,
+      "lint_yaml": true,
+      "lint_twig": true,
+      "doctrine_mapping_valid": false,
+      "routes": [
+        {
+          "path": "/products",
+          "registered": false
+        },
+        {
+          "path": "/products/new",
+          "registered": false
+        },
+        {
+          "path": "/products/{id}",
+          "registered": false
+        },
+        {
+          "path": "/products/{id}/edit",
+          "registered": false
+        },
+        {
+          "path": "/products/{id}/delete",
+          "registered": false
+        }
+      ],
+      "phpunit": null,
+      "php8_attributes": {},
+      "files_created": []
+    },
+    "score": 40.0
+  },
+  {
+    "scenario": "S5",
+    "run": 3,
+    "timestamp": "2026-04-02T21:07:51Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {
+      "wall_time_seconds": 241.4,
+      "peak_memory_bytes": 466993152
+    },
+    "tokens": {
+      "input": 257277,
+      "output": 5238,
+      "total": 262515,
+      "reasoning": 0,
+      "steps": 11,
+      "tool_calls": 0
+    },
+    "validation": {
+      "files": {
+        "src/Entity/Product.php": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "src/Repository/ProductRepository.php": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "src/Form/ProductType.php": {
+          "exists": true,
+          "syntax_valid": true
+        },
+        "src/Controller/ProductController.php": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/index.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/new.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/show.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "templates/product/edit.html.twig": {
+          "exists": false,
+          "syntax_valid": false
+        },
+        "tests/Controller/ProductControllerTest.php": {
+          "exists": false,
+          "syntax_valid": false
+        }
+      },
+      "all_files_exist": false,
+      "all_syntax_valid": false,
+      "lint_container": false,
+      "lint_yaml": false,
+      "lint_twig": false,
+      "doctrine_mapping_valid": false,
+      "routes": [
+        {
+          "path": "/products",
+          "registered": false
+        },
+        {
+          "path": "/products/new",
+          "registered": false
+        },
+        {
+          "path": "/products/{id}",
+          "registered": false
+        },
+        {
+          "path": "/products/{id}/edit",
+          "registered": false
+        },
+        {
+          "path": "/products/{id}/delete",
+          "registered": false
+        }
+      ],
+      "phpunit": null,
+      "php8_attributes": {
+        "src/Entity/Product.php": 10,
+        "src/Repository/ProductRepository.php": 0,
+        "src/Form/ProductType.php": 0
+      },
+      "files_created": [
+        "src/Entity/Product.php",
+        "src/Form/ProductType.php",
+        "src/Repository/ProductRepository.php"
+      ]
+    },
+    "score": 10.0
+  }
+]

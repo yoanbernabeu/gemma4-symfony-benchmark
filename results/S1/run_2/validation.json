@@ -1,0 +1,13 @@
+{
+    "files": {"src/Entity/Article.php":{"exists":true,"syntax_valid":true},"src/Repository/ArticleRepository.php":{"exists":true,"syntax_valid":true}},
+    "all_files_exist": true,
+    "all_syntax_valid": true,
+    "lint_container": true,
+    "lint_yaml": true,
+    "lint_twig": true,
+    "doctrine_mapping_valid": true,
+    "routes": [],
+    "phpunit": null,
+    "php8_attributes": {"src/Entity/Article.php":9,"src/Repository/ArticleRepository.php":0},
+    "files_created": ["src/Entity/Article.php", "src/Repository/ArticleRepository.php"]
+}

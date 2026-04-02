@@ -1,0 +1,1 @@
+I have created `src/Entity/Article.php` and `src/Repository/ArticleRepository.php`. You will likely need to run database migrations to update your schema with the new `Article` entity.

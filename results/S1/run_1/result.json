@@ -1,0 +1,23 @@
+{
+    "scenario": "S1",
+    "run": 1,
+    "timestamp": "2026-04-02T20:39:09Z",
+    "model": "ollama/gemma4-opencode",
+    "timed_out": false,
+    "timing": {"wall_time_seconds": 118.94, "peak_memory_bytes": 467714048},
+    "tokens": {"input": 41749, "output": 1209, "total": 42958, "reasoning": 0, "steps": 2, "tool_calls": 0},
+    "validation": {
+    "files": {"src/Entity/Article.php":{"exists":true,"syntax_valid":true},"src/Repository/ArticleRepository.php":{"exists":false,"syntax_valid":false}},
+    "all_files_exist": false,
+    "all_syntax_valid": false,
+    "lint_container": true,
+    "lint_yaml": true,
+    "lint_twig": true,
+    "doctrine_mapping_valid": true,
+    "routes": [],
+    "phpunit": null,
+    "php8_attributes": {"src/Entity/Article.php":9},
+    "files_created": ["src/Entity/Article.php"]
+},
+    "score": 60.0
+}
